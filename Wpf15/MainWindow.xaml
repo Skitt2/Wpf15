@@ -1,0 +1,129 @@
+﻿<Window x:Class="Wpf15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph FontSize="20">
+                    <Hyperlink NavigateUri="">
+                        Покорение Сибири
+                    </Hyperlink>
+                </Paragraph>
+                <Paragraph>
+                    <Floater Width="250" HorizontalAlignment="Right">
+                        <BlockUIContainer>
+                            <Image Source="Data/Yakutsk_in_the_Seventeenth_Century.jpeg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                </Paragraph>
+                <Paragraph>
+                    Покорение (присоединение) Сибири — исторический процесс включения Сибири и Дальнего Востока в состав Русского (Российского) государства со второй половины XVI до конца XVII века. Традиционно считается начатым в 1581 году походом Ермака против Сибирского ханства. Присоединение Сибири и Дальнего Востока к России встречало сопротивление местных жителей и происходило на фоне ожесточенных боев коренных народов с русскими казаками, которые часто допускали жестокость по отношению к коренным народам.
+                </Paragraph>
+                <Paragraph FontWeight="Bold">
+                    Этапы:
+                </Paragraph>
+                <List MarkerStyle="Decimal">
+                    <ListItem>
+                        <Paragraph>
+                            XVI век. Завоевание Западной Сибири
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            XVII век. От Енисея до Тихого океана. Война с Китаем
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            XVIII век. Покорение Чукотки и Камчатки
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            XIX век. Присоединение Приамурья и Сахалина
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="6*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow FontWeight="Bold">
+                            <TableCell>
+                                <Paragraph>
+                                    Дата
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Событие
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    1581—1585
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Сибирский поход 
+                                    <Run Foreground="Blue">
+                                        Ермака Тимофеевича
+                                    </Run>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    1586
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run Foreground="Blue">
+                                        Василий Сукин
+                                    </Run>
+                                    основал Тюмень (первый русский город в Сибири), на месте бывшей столицы Сибирского ханства
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    1587
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    основан Тобольск на Иртыше, ставший впоследствии «столицей Сибири»
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    1590
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    первый указ о переселении русского населения в Сибирь (35 «пашенных людей» из Сольвычегодского уезда «с жёнами и детьми и со всем имением» направлены на поселение в Сибирь)
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
